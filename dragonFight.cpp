@@ -1,5 +1,5 @@
 /* Play out a simple fight between a character and a dragon, using dice rolls
- * @author Zachary Young, Marcus Coleman, Trey
+ * @author Zachary Young, Marcus Coleman, Trey Bolen
  * @date 12/2/2018
  */
 
@@ -64,7 +64,7 @@ int main(){
         getch();
         cout << endl << R"(========================================================================================================================
 
-        Of course, being the daring adventurer you are, you accept the king's quest. You quickly grab your gear and make your way up onto the castle walls where you are met face-to-face with a massive dragon that you are unsure how you missed on your way in. Or, how you didn't know about it until the king told you in the first place. Nevertheless, there was no time to think on it too much! The dragon was there, and with the help of the king's men, you begin to attack!
+        Of course, being the daring adventurer you are, you accept the king's quest. You quickly grab your gear and make your way up on to the castle walls where you are met face-to-face with a massive dragon that you are unsure how you missed on your way in. Or, how you didn't know about it until the king told you in the first place. Nevertheless, there was no time to think on it too much! The dragon was there, and with the help of the king's men, you begin to attack!
 
 ========================================================================================================================
 
@@ -221,7 +221,7 @@ int main(){
 
         //Victory screen
         while (gameState == 2){
-            cout << "\n\n\n\n\nYou have won... press any key to go back to the main menu";
+            cout << "\n\n\n\n\nYou have won!!! Press any key to go back to the main menu";
             getch();
             system ("CLS");
             gameState = 0;
@@ -231,7 +231,7 @@ int main(){
 
         //Death screen
         while (gameState == 3){
-            cout << "\n\n\n\n\nYou have died... press any key to go back to the main menu";
+            cout << "\n\n\n\n\nYou have died... Press any key to go back to the main menu";
             getch();
             system ("CLS");
             gameState = 0;
